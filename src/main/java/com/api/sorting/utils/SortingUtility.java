@@ -96,7 +96,7 @@ public enum SortingUtility {
 	}
 
 	// This function is to merge the sorted files
-	public static int mergeSortedFiles(List<File> files, File outputfile,
+	public int mergeSortedFiles(List<File> files, File outputfile,
 			final Comparator<String> comparator) throws IOException {
 
 		PriorityQueue<CustomFileBuffer> priorityQueue = new PriorityQueue<CustomFileBuffer>(

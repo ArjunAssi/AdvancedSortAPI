@@ -42,7 +42,7 @@ public class Test {
 				.rotateSortedList(sortedList);
 		rotatedList.stream().forEach(System.out::println);
 
-		// TESTING SORTED LIST ROTATION WITHOUT ROTATION COUNTER
+		// TESTING SORTED LIST ROTATION WITH ROTATION COUNTER
 		List<Integer> rotatedListWithCount = SortingUtility.INSTANCE
 				.rotateSortedList(sortedList, 4);
 		rotatedListWithCount.stream().forEach(System.out::println);
